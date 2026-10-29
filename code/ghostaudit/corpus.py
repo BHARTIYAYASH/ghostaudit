@@ -49,7 +49,7 @@ class Identity:
 
 
 class Corpus:
-    """Loads all participant-facing CSVs and builds the identity graph."""
+    """Loads all input CSVs and builds the identity graph."""
 
     def __init__(self, dataset_dir: str) -> None:
         self.dataset_dir = dataset_dir

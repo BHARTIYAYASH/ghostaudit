@@ -1,4 +1,5 @@
-"""Ghost Data Still Exists - CLI.
+# Copyright (c) 2026 Yash K. All rights reserved.
+"""GhostAudit - CLI.
 
 Run from the repository:
 
@@ -56,7 +57,7 @@ def _load_gold(path: str) -> dict[str, tuple[str, list]]:
 
 
 def main(argv=None) -> int:
-    ap = argparse.ArgumentParser(description="Ghost Data deletion-audit agent")
+    ap = argparse.ArgumentParser(description="GhostAudit deletion-audit agent")
     ap.add_argument("--validate", action="store_true",
                     help="run the 32 sample cases and compare with sample_output.csv")
     ap.add_argument("--run", action="store_true",

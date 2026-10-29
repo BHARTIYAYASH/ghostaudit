@@ -1,4 +1,5 @@
-"""GhostAudit — AI-powered deletion-audit agent for "Ghost Data Still Exists".
+# Copyright (c) 2026 Yash K. All rights reserved.
+"""GhostAudit — evidence-first deletion-audit agent.
 
 Architecture (evidence-knowledge-graph):
 
@@ -10,8 +11,8 @@ Architecture (evidence-knowledge-graph):
     decide         -> verdict (COMPLETE / INCOMPLETE / NOT_APPLICABLE) + ordered steps
     pipeline       -> orchestrates everything and writes output.csv
 
-Only participant-facing files under ``dataset/`` are read. No golden labels,
-no organizer-only files, no case-family shortcuts are used.
+Only files under ``dataset/`` are read. No golden labels and no hidden
+shortcuts are used.
 """
 
 __version__ = "1.0.0"

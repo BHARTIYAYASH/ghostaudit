@@ -2,6 +2,8 @@
 
 **An evidence-first deletion-audit agent.**
 
+Built by [Yash K](https://github.com/BHARTIYAYASH).
+
 Your deletion workflow says `COMPLETE`. GhostAudit checks whether that is actually true — and when it isn't, it tells you exactly what is still there, what can bring it back, and the ordered sequence of actions needed to fix it.
 
 ```text
@@ -44,8 +46,8 @@ case_id,deletion_status,steps_json
 Requires **Python 3.10+** (tested on 3.11 and 3.12).
 
 ```bash
-git clone https://github.com/<you>/ghost-data.git
-cd ghost-data
+git clone https://github.com/BHARTIYAYASH/ghostaudit.git
+cd ghostaudit
 
 python -m venv .venv
 # Windows
@@ -271,3 +273,7 @@ python code/main.py --run --dataset evaluation/fixtures/backup_restore_allowed -
 GhostAudit started as an entry for **HackerRank Orchestrate (October 2026)**, whose brief was *"Ghost Data Still Exists."* The submission deadline was missed, so it is published here as a standalone reference implementation.
 
 All people, organizations, identifiers, and records in the bundled corpus are synthetic.
+
+---
+
+© 2026 Yash K. All rights reserved. See [LICENSE](LICENSE).

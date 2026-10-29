@@ -3,7 +3,7 @@
 An ``Observation`` captures ONE verifiable fact about ONE resource, as seen by
 one evidence source:
 
-    file_id      evidence id (participant-visible citation)
+    file_id      evidence id (citable source)
     system       owning system (account_service, search_service, ...)
     resource_id  resource key (account_9797, search_052, ...)
     kind         data category from deletion_rules.csv vocabulary
@@ -199,7 +199,7 @@ def _email(v):
 
 
 class EvidenceParser:
-    """Parses every participant-visible evidence file into observations."""
+    """Parses every supplied evidence file into observations."""
 
     def __init__(self, corpus, image_facts: list[dict] | None = None) -> None:
         self.corpus = corpus
