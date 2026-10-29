@@ -256,7 +256,7 @@ Three additional fixtures run through the real CLI, each isolating one branch:
 | `tombstone_preserved` | Tombstone already redacted | `COMPLETE` with one redaction verification |
 
 ```bash
-python code/main.py --run --dataset evaluation/fixtures/backup_restore_allowed --out scratch/out.csv
+python code/main.py --run --dataset evaluation/fixtures/backup_restore_allowed --out fixture_output.csv
 ```
 
 ## Limitations
