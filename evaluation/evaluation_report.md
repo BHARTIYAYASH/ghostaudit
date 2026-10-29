@@ -8,7 +8,7 @@ through the real CLI, and the post-fix state of the run.
 All metrics below were produced by executing the actual pipeline entry point:
 
 ```bash
-C:\Users\Yash\AppData\Local\Programs\Python\Python311\python.exe -X utf8 code/main.py --validate
+python code/main.py --validate
 ```
 
 from the repository root. The comparison harness imported the pipeline
