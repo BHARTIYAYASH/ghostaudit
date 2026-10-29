@@ -1,0 +1,14 @@
+{
+  "captured_at": "2026-10-01T09:00:00Z",
+  "origin_system": "backup_service",
+  "records": [
+    {
+      "resource_id": "backup_9001",
+      "system": "backup_service",
+      "collection": "backup_archives",
+      "result": "ACTIVE",
+      "restore_allowed": true,
+      "subject_reference": "user_9001"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-01T09:00:00Z",
+  "origin_system": "identity_service",
+  "records": [
+    {
+      "resource_id": "tombstone_9003",
+      "system": "identity_service",
+      "collection": "deleted_customer_references",
+      "result": "REDACTED",
+      "subject_reference": "user_9002"
+    }
+  ]
+}

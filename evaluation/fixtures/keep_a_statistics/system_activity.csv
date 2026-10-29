@@ -1,0 +1,3 @@
+activity_id,event_time,event_type,source_system,target_system,resource_id,reported_result,details
+activity_fx01,2026-10-01T10:00:00Z,CLASSIFY_REQUEST,privacy_intake,privacy_case_management,account_7001,FALSE,"Customer user_7001 confirmed they only wanted marketing opt-out; no account deletion authorized."
+activity_fx02,2026-10-01T11:00:00Z,LINK_RESOURCE_IDENTITY,account_service,data_catalog,account_7001,SUCCESS,"Customer user_7001 linked to account_7001."

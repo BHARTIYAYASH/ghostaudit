@@ -1,0 +1,2 @@
+user_id,name,email,phone,email_hash,updated_at
+user_9002,Tombstone User,user_9002@example.com,+15550142003,0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef,2026-09-01T00:00:00Z

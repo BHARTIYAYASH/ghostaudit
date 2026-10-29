@@ -1,0 +1,2 @@
+user_id,name,email,phone,email_hash,updated_at
+user_9001,Restore Risk User,user_9001@example.com,+15550142002,0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef,2026-09-01T00:00:00Z
